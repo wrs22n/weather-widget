@@ -1,12 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <script defer src="./app.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <main class="main">
+                <div class="city">
+                    <form action="" method="get">
+                        <input
+                            id="cityInput"
+                            placeholder="Kyiv, Ukraine"
+                            type="text"
+                        />
+                        <input type="submit" id="submitButton" />
+                    </form>
+                    <p class="currentCity">Selected: Kyiv, Ukraine</p>
+                </div>
+                <div class="weather">
+                    <div class="weather__current">
+                        <div>
+                            <p class="weather__current__temp">-5&deg;C</p>
+                            <p class="weather__current__temp-feel">
+                                Feels like -8&deg;C
+                            </p>
+                        </div>
+                        <div>
+                            <p class="weather__current__description">Clouds</p>
+                            <p class="weather__current__city">Kyiv, Ukraine</p>
+                        </div>
+                        <div class="weather__current__img">
+                            <img
+                                class="current__img"
+                                src="https://openweathermap.org/img/wn/04n@2x.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="weather__next">
+                        <ul>
+                            <li class="weather__next__day">
+                                <div>
+                                    <div>
+                                        <span class="day__week">THU</span>
+                                    </div>
+                                    <div class="weather__image">
+                                        <img
+                                            src="./img/icons8-rain-cloud-30.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div>
+                                        <p>broken clouds</p>
+                                    </div>
+                                    <div>
+                                        <span class="weather__next__temp-min"
+                                            >C</span
+                                        >
+                                        <span class="weather__next__temp-max"
+                                            >C</span
+                                        >
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="weather__next__day">
+                                <div>
+                                    <div>
+                                        <span class="day__week">THU</span>
+                                    </div>
+                                    <div class="weather__image">
+                                        <img
+                                            src="./img/icons8-rain-cloud-30.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div><p>broken clouds</p></div>
+                                    <div>
+                                        <span class="weather__next__temp-min"
+                                            >C</span
+                                        >
+                                        <span class="weather__next__temp-max"
+                                            >C</span
+                                        >
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="weather__next__day">
+                                <div>
+                                    <div>
+                                        <span class="day__week">THU</span>
+                                    </div>
+                                    <div class="weather__image">
+                                        <img
+                                            src="./img/icons8-rain-cloud-30.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div><p>broken clouds</p></div>
+                                    <div>
+                                        <span class="weather__next__temp-min"
+                                            >C</span
+                                        >
+                                        <span class="weather__next__temp-max"
+                                            >C</span
+                                        >
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="weather__next__day">
+                                <div>
+                                    <div>
+                                        <span class="day__week">THU</span>
+                                    </div>
+                                    <div class="weather__image">
+                                        <img
+                                            src="./img/icons8-rain-cloud-30.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div><p>broken clouds</p></div>
+                                    <div>
+                                        <span class="weather__next__temp-min"
+                                            >C</span
+                                        >
+                                        <span class="weather__next__temp-max"
+                                            >C</span
+                                        >
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
 </html>
